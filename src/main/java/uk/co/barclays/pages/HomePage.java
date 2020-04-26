@@ -1,12 +1,10 @@
 package uk.co.barclays.pages;
 
-import com.sun.xml.internal.ws.wsdl.writer.W3CAddressingMetadataWSDLGeneratorExtension;
+import com.cucumber.listener.Reporter;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.Reporter;
 import uk.co.barclays.utility.Utility;
 
 /*
@@ -23,13 +21,13 @@ public class HomePage extends Utility {
     WebElement _registerLink;
 
     public void clickOnLoginButton() {
-        Reporter.log("clicking on login button : "+ _loginBtn.toString()+"<br>");
+ Reporter.addStepLog("clicking on login button : "+ _loginBtn.toString());
         clickOnElement(_loginBtn);
         log.info ("clicking on login button : "+_loginBtn.toString());
     }
 
     public void clickOnRegisterLink() {
-        Reporter.log("clicking on register link : "+ _registerLink.toString()+"<br>");
+Reporter.addStepLog("clicking on register link : "+ _registerLink.toString());
         clickOnElement(_registerLink);
         log.info("clicking on register link : "+ _registerLink.toString());
     }

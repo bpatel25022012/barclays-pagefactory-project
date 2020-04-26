@@ -1,3 +1,60 @@
-2020-04-19 08:04:946 INFO  BrowserSelector :20 - Launching Chrome Browser
-2020-04-19 08:04:892 INFO  HomePage :30 - clicking on login button : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login btn btn-primary btn-sm']'
-2020-04-19 08:04:968 INFO  LoginPage :26 - Getting text from [[ChromeDriver: chrome on WINDOWS (3d0fa8542fd8ca45dda88606207278ac)] -> xpath: //strong[contains(text(),'Quick, safe and convenient')]]
+2020-04-26 09:04:23 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 09:04:60 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 09:04:475 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 09:04:662 INFO  HomePage :29 - clicking on login button : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login btn btn-primary btn-sm']'
+2020-04-26 09:04:742 INFO  LoginPage :25 - Getting text from [[ChromeDriver: chrome on WINDOWS (8037a79b018fe530855bbe03c27c890f)] -> xpath: //strong[contains(text(),'Quick, safe and convenient')]]
+2020-04-26 09:04:145 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 09:04:569 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 09:04:389 INFO  HomePage :29 - clicking on login button : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login btn btn-primary btn-sm']'
+2020-04-26 09:04:459 INFO  LoginPage :25 - Getting text from [[ChromeDriver: chrome on WINDOWS (de4f7366703c6ce847a1ea8d01b2dd0e)] -> xpath: //strong[contains(text(),'Quick, safe and convenient')]]
+2020-04-26 09:04:838 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 09:04:833 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 09:04:164 INFO  HomePage :29 - clicking on login button : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login btn btn-primary btn-sm']'
+2020-04-26 09:04:234 INFO  LoginPage :25 - Getting text from [[ChromeDriver: chrome on WINDOWS (9e10cd5bf3c8df83c3783034e90bdcd9)] -> xpath: //strong[contains(text(),'Quick, safe and convenient')]]
+2020-04-26 09:04:379 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 09:04:742 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 09:04:514 INFO  HomePage :29 - clicking on login button : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login btn btn-primary btn-sm']'
+2020-04-26 09:04:605 INFO  LoginPage :25 - Getting text from [[ChromeDriver: chrome on WINDOWS (b9d5630b5185942b31874a79b4742c20)] -> xpath: //strong[contains(text(),'Quick, safe and convenient')]]
+2020-04-26 09:04:390 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 09:04:704 INFO  HomePage :35 - clicking on register link : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='btn-none']'
+2020-04-26 09:04:767 INFO  RegisterPage :22 - Getting text from [[ChromeDriver: chrome on WINDOWS (b8a6f6bd28a673f5aee3d14485b04c0f)] -> xpath: //h2[contains(text(),'Register for Online Banking')]]
+2020-04-26 13:04:820 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 13:04:872 INFO  HomePage :29 - clicking on login button : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login btn btn-primary btn-sm']'
+2020-04-26 13:04:934 INFO  LoginPage :25 - Getting text from [[ChromeDriver: chrome on WINDOWS (e38a8bcbf813212767bbbed668d8ae35)] -> xpath: //strong[contains(text(),'Quick, safe and convenient')]]
+2020-04-26 13:04:273 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 13:04:77 INFO  HomePage :35 - clicking on register link : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='btn-none']'
+2020-04-26 13:04:150 INFO  RegisterPage :28 - Getting text from [[ChromeDriver: chrome on WINDOWS (5597d60ac197d00680d1166a37e8769d)] -> xpath: //h2[contains(text(),'Register for Online Banking')]]
+2020-04-26 13:04:222 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 13:04:856 INFO  HomePage :35 - clicking on register link : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='btn-none']'
+2020-04-26 13:04:109 INFO  RegisterPage :36 - Clicking on start button : [[ChromeDriver: chrome on WINDOWS (ecb55979fa2013cb68e76092cbbe5a99)] -> xpath: //body//div[2]//div[2]//button[1]]
+2020-04-26 13:04:576 INFO  RegisterPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (ecb55979fa2013cb68e76092cbbe5a99)] -> xpath: //h4[contains(text(),'Your details')]]
+2020-04-26 13:04:895 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 13:04:858 INFO  HomePage :29 - clicking on login button : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login btn btn-primary btn-sm']'
+2020-04-26 13:04:935 INFO  LoginPage :34 - Getting text from [[ChromeDriver: chrome on WINDOWS (96c7de4712f6170a9904f89cf70036cf)] -> xpath: //strong[contains(text(),'Quick, safe and convenient')]]
+2020-04-26 13:04:168 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 13:04:858 INFO  HomePage :29 - clicking on login button : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login btn btn-primary btn-sm']'
+2020-04-26 13:04:147 INFO  LoginPage :41 - Entering surname : Patelto surname field: [[ChromeDriver: chrome on WINDOWS (029b8c7c686a32c61dfbe8f7f56dfc7e)] -> xpath: //input[@name='surname']]
+2020-04-26 13:04:928 INFO  LoginPage :47 - clicking on next step button : [[ChromeDriver: chrome on WINDOWS (029b8c7c686a32c61dfbe8f7f56dfc7e)] -> xpath: //button[contains(text(),'Next Step')]]
+2020-04-26 13:04:990 INFO  LoginPage :52 - Getting text from [[ChromeDriver: chrome on WINDOWS (029b8c7c686a32c61dfbe8f7f56dfc7e)] -> xpath: //body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]]
+2020-04-26 13:04:985 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 13:04:425 INFO  HomePage :35 - clicking on register link : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='btn-none']'
+2020-04-26 13:04:484 INFO  RegisterPage :28 - Getting text from [[ChromeDriver: chrome on WINDOWS (a26916d90889687761b18e30921b80e0)] -> xpath: //h2[contains(text(),'Register for Online Banking')]]
+2020-04-26 13:04:765 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 13:04:593 INFO  HomePage :35 - clicking on register link : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='btn-none']'
+2020-04-26 13:04:05 INFO  RegisterPage :36 - Clicking on start button : [[ChromeDriver: chrome on WINDOWS (60bd30a4ff9bb9bd61048ca086ec2c4d)] -> xpath: //body//div[2]//div[2]//button[1]]
+2020-04-26 13:04:442 INFO  RegisterPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (60bd30a4ff9bb9bd61048ca086ec2c4d)] -> xpath: //h4[contains(text(),'Your details')]]
+2020-04-26 13:04:375 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 14:04:686 INFO  HomePage :29 - clicking on login button : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login btn btn-primary btn-sm']'
+2020-04-26 14:04:742 INFO  LoginPage :34 - Getting text from [[ChromeDriver: chrome on WINDOWS (14cd3bd386b4e809cde5a0c64edebd9e)] -> xpath: //strong[contains(text(),'Quick, safe and convenient')]]
+2020-04-26 14:04:40 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 14:04:787 INFO  HomePage :29 - clicking on login button : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login btn btn-primary btn-sm']'
+2020-04-26 14:04:17 INFO  LoginPage :41 - Entering surname : Patelto surname field: [[ChromeDriver: chrome on WINDOWS (3e1e88b6b3791d7aee5e208f12eb1d93)] -> xpath: //input[@name='surname']]
+2020-04-26 14:04:855 INFO  LoginPage :47 - clicking on next step button : [[ChromeDriver: chrome on WINDOWS (3e1e88b6b3791d7aee5e208f12eb1d93)] -> xpath: //button[contains(text(),'Next Step')]]
+2020-04-26 14:04:924 INFO  LoginPage :52 - Getting text from [[ChromeDriver: chrome on WINDOWS (3e1e88b6b3791d7aee5e208f12eb1d93)] -> xpath: //body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]]
+2020-04-26 14:04:940 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 14:04:692 INFO  HomePage :35 - clicking on register link : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='btn-none']'
+2020-04-26 14:04:752 INFO  RegisterPage :28 - Getting text from [[ChromeDriver: chrome on WINDOWS (c7d6398c30ee166cad21ee4e5686a126)] -> xpath: //h2[contains(text(),'Register for Online Banking')]]
+2020-04-26 14:04:196 INFO  BrowserSelector :23 - launching the  Chrome browser
+2020-04-26 14:04:345 INFO  HomePage :35 - clicking on register link : Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='btn-none']'
+2020-04-26 14:04:594 INFO  RegisterPage :36 - Clicking on start button : [[ChromeDriver: chrome on WINDOWS (3914332b6d388eeb578618ce2c62a803)] -> xpath: //body//div[2]//div[2]//button[1]]
+2020-04-26 14:04:302 INFO  RegisterPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (3914332b6d388eeb578618ce2c62a803)] -> xpath: //h4[contains(text(),'Your details')]]

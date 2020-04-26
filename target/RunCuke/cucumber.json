@@ -1,0 +1,348 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19435967200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should navigate to login page successfully",
+        "description": "",
+        "id": "login-page-feature;user-should-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1201599099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 288285599,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on home page",
+            "match": {
+              "location": "LoginSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12420302001,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104348700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should navigate to page successfully",
+            "match": {
+              "location": "LoginSteps.iShouldNavigateToPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16429204700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User should not login without entering membership details",
+        "description": "",
+        "id": "login-page-feature;user-should-not-login-without-entering-membership-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1945652800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on home page",
+            "match": {
+              "location": "LoginSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12338109799,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 224319900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter surname \"Patel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Patel",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.iEnterSurname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 833997100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on next step",
+            "match": {
+              "location": "LoginSteps.iClickOnNextStep()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123059401,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see the error Message",
+            "match": {
+              "location": "LoginSteps.iShouldSeeTheErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login page feature",
+    "description": "As a user I want to navigate to login page into barclays website",
+    "id": "login-page-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/uk/co/barclays/resources/featurefile/login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17317523000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should navigate to registration page successfully",
+        "description": "",
+        "id": "register-page-feature;user-should-navigate-to-registration-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1375443600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "LoginSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12431925700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Register link",
+            "match": {
+              "location": "RegisterSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103739801,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should navigate to register page successfully",
+            "match": {
+              "location": "RegisterSteps.iShouldNavigateToRegisterPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16241734899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User should navigate to user details page successfully",
+        "description": "",
+        "id": "register-page-feature;user-should-navigate-to-user-details-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1076250200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58899,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on home page",
+            "match": {
+              "location": "LoginSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12911498500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Register link",
+            "match": {
+              "location": "RegisterSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 246229900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on start button",
+            "match": {
+              "location": "RegisterSteps.iClickOnStartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 762502601,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should navigate to your details page successfully",
+            "match": {
+              "location": "RegisterSteps.iShouldNavigateToYourDetailsPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register page feature",
+    "description": "As a user I want to navigate to Registration page into barclays website",
+    "id": "register-page-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/uk/co/barclays/resources/featurefile/register.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Register"
+      }
+    ]
+  }
+]
